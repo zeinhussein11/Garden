@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0fff0;
+  color: #333;
+}
+
+header {
+  background-color: #228B22;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #228B22;
+  text-align: center;
+}
+
+
+nav {
+  background-color: #228B22;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  margin: 15px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px gray;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #228B22;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #228B22;
+  color: white;
+  margin-top: 20px;
+}
