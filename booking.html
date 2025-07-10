@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garden - Contact</title>
+  <link rel="stylesheet" href="file.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Garden</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="booking.html">booking</a>
+       <a href="gallery.html">gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Booking Form</legend>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+         <label for="email">email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+         <label for="mobile">mobile:</label><br>
+        <input type="text" id="mobile" name="mobile"><br><br>
+
+        <label for="major">Major:</label>
+      <select id="major">
+          <option>IT</option>
+          <option>medicine</option>
+          <option>business</option>
+          <option>ecnomic</option>
+          <option>Agriculture</option>
+        </select><br>
+
+        <p>Gender:</p>
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label><br>
+
+        <p>Hobbies:</p>
+        <label><input type="checkbox"> Gardening</label>
+        <label><input type="checkbox"> Photography</label><br>
+
+        <label for="message">Comments:</label><br>
+        <textarea id="message" placeholder="Write your message..."></textarea><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Garden Project</p>
+  </footer>
+</body>
+</html>
